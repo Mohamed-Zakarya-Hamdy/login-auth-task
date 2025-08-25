@@ -92,12 +92,13 @@ export default function LoginForm() {
       </button>
 
       {/* Below button */}
-      <p className="mt-4 text-[14px] sm:text-[16px] leading-[155%] font-[ABeeZee]">
-        Don’t have an account?{" "}
-        <a href="#" className="underline cursor-pointer">
-          Sign up
-        </a>
-      </p>
+<p className="mt-4 text-[14px] sm:text-[16px] leading-[155%] font-[ABeeZee] text-[#62626B]">
+  Don’t have an account?{" "}
+  <a href="#" className=" cursor-pointer text-[#62626B]">
+    Sign up
+  </a>
+</p>
+
     </form>
   );
 }
